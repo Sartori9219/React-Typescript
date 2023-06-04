@@ -1,11 +1,13 @@
 import React from 'react';
 import './App.css';
 
+import ProjectPage from './projects/ProjectPage';
+
 function App() {
   return (
-    <blockquote cite="My name is Mirko">
-      What is your name?
-    </blockquote>
+    <div className='container'>
+      <ProjectPage />
+    </div>
   );
 }
 
